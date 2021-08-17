@@ -50,12 +50,13 @@
 
 4. （3和4选一，如果电脑有能支持cuda的显卡，最好走4）安装CUDA10.2和CuDnn7.6.5，可以参考如下博客：
 
-   [CSDN Blog]: https://blog.csdn.net/bingo_liu/article/details/103224730
+   https://blog.csdn.net/bingo_liu/article/details/103224730 
 
    安装pytorch的gpu版本：`pip install torch==1.9.0+cu102 torchvision==0.10.0+cu102 -f https://download.pytorch.org/whl/torch_stable.html`
 
-   [^1]: torch的安装命令来自于pytorch官网：https://pytorch.org/get-started/locally/
-   [^2]: 可以在这个网站上查询自己的显卡支不支持cuda：https://developer.nvidia.com/cuda-gpus#compute
+   <u>注：torch的安装命令来自于pytorch官网：https://pytorch.org/get-started/locally/</u>
+
+   ​       <u>可以在这个网站上查询自己的显卡支不支持cuda：https://developer.nvidia.com/cuda-gpus#compute</u>
 
    如果下载太慢，可以直接安装.whl文件：
 
@@ -280,23 +281,23 @@ Average loss over 63 batches: 1.2051873008410137; Images trained: 50000/50000;
 
 2. tensorboard主页如下：
 
-<img src="F:\新工科产业学院\我教的课\图像处理与机器视觉\experiments-convnets\notebook_pics\tensorboard-mainpage.png" alt="tensorboard-mainpage" style="zoom:33%;" />
+<img src=".\notebook_pics\tensorboard-mainpage.png" alt="tensorboard-mainpage" style="zoom:33%;" />
 
 3. 在SCALARS这一栏可以查看自己模型的训练loss，以及在训练集以及测试集上的准确率
 
-   ![training & testing accuracy](F:\新工科产业学院\我教的课\图像处理与机器视觉\experiments-convnets\notebook_pics\training & testing accuracy.png)
+   ![training & testing accuracy](.\notebook_pics\training & testing accuracy.png)
 
-   ![training loss](F:\新工科产业学院\我教的课\图像处理与机器视觉\experiments-convnets\notebook_pics\training loss.png)
+   ![training loss](.\notebook_pics\training loss.png)
 
 4. 在IMAGES这一栏可以查看训练集中的一个batch的图像，以及在测试集上一个batch的预测效果
 
-   ![trainingbatch](F:\新工科产业学院\我教的课\图像处理与机器视觉\experiments-convnets\notebook_pics\trainingbatch.png)
+   ![trainingbatch](.\notebook_pics\trainingbatch.png)
 
-   <img src="F:\新工科产业学院\我教的课\图像处理与机器视觉\experiments-convnets\notebook_pics\testingbatch.png" alt="testingbatch" style="zoom:50%;" />
+   <img src=".\notebook_pics\testingbatch.png" alt="testingbatch" style="zoom:50%;" />
 
    5. 在GRAPHS这一栏可以查看自己搭建好的网络结构：
 
-      ![image-20210817105759449](C:\Users\86199\AppData\Roaming\Typora\typora-user-images\image-20210817105759449.png)
+      <img src=".\notebook_pics\cifar10_result_1.png" alt="cifar10_result_1" style="zoom: 25%;" />
 
 ## 4. 实验报告
 
