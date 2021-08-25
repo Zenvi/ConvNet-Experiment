@@ -285,9 +285,11 @@ Average loss over 63 batches: 1.2051873008410137; Images trained: 50000/50000;
 
 3. 在SCALARS这一栏可以查看自己模型的训练loss，以及在训练集以及测试集上的准确率
 
-   ![training & testing accuracy](.\notebook_pics\training & testing accuracy.png)
+   ![training&testing-accuracy](.\notebook_pics\training&testing-accuracy.png)
 
-   ![training loss](.\notebook_pics\training loss.png)
+   ![trainingloss](.\notebook_pics\training_loss.png)
+
+   
 
 4. 在IMAGES这一栏可以查看训练集中的一个batch的图像，以及在测试集上一个batch的预测效果
 
@@ -297,7 +299,7 @@ Average loss over 63 batches: 1.2051873008410137; Images trained: 50000/50000;
 
    5. 在GRAPHS这一栏可以查看自己搭建好的网络结构：
 
-      <img src=".\notebook_pics\cifar10_result_1.png" alt="cifar10_result_1" style="zoom: 25%;" />
+      <img src=".\notebook_pics\cifar10_result_1.png" alt="cifar10_result_1" style="zoom:25%;" />
 
 ## 4. 实验报告
 
